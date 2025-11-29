@@ -48,7 +48,7 @@ Future<void> initSystemTray() async {
           "yyyy MMM dd",
         ).format(NepaliDateTime.now());
         nepaliDate = today;
-        
+
         // Rebuild menu with updated date
         final newMenu = Menu();
         await newMenu.buildFrom([
